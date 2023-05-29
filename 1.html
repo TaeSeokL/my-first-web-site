@@ -14,7 +14,13 @@
     </ol>  
 
     <h2>HTML</h2>
-    <img src = "cat.jpg" width = "100px">
+    <img src="cat.jpg" width="100px">
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/0vY0ko2bZ4Y" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-
+        write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+    </p>
+
     <h2><u><a href="https://www.w3.org/TR/2011/WD-html5-20110405/text-level-semantics.html#the-a-element"
         target="_blank" title="html5 specification">[html을 알아보자!]</a></u></h2>
     <p>웹사이트의 모습을 기술하기 위한 마크업 언어.
@@ -28,5 +34,27 @@
          (Vinton Gray Cerf)와 함께 인터넷의 아버지로 불린다. 나무위키에서는 아래와 같이 내용을 집어넣어 
          HTML을 적용시킬 수 있지만 도움말에 의하면 지원 종료 가능성이 있는 비권장 문법이므로 나무위키에서는 
          HTML 태그를 사용하지 않는 것을 추천한다</p>
+
+    <p><div id="disqus_thread"></div>
+        <script>
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://web1-rteuvo4zch.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">
+            comments powered by Disqus.</a></noscript>
+    </p>
 </body>
 </html> 
